@@ -1,10 +1,10 @@
 /* eslint-disable max-len */
-import HomeDoctorsList from "./components/doctors-search-list/home-doctors-list"
+import CreditCardTable from "./pages/credit-card-table"
 
 const showAll = {showHeader: true, dropdown: true, search: true}
 
 const routes = [
-	{ path: "/", component: HomeDoctorsList, ...showAll },
+	{ path: "/", component: CreditCardTable, ...showAll },
 ]
 
 export default routes
