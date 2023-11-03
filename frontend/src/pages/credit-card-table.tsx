@@ -4,8 +4,7 @@ import creditCardData from "src/utils/sample-credit-card-information"
 export default function CreditCardsTable () {
 	return (
 		<div className="container mx-auto p-4">
-			<div className="grid grid-cols-10 gap-4 text-center bg-gray-100 p-2 font-semibold">
-				<div>ID</div>
+			<div className="grid grid-cols-9 gap-4 text-center bg-gray-100 p-2 font-semibold">
 				<div>Name</div>
 				<div>Issuer</div>
 				<div>Reward Type</div>

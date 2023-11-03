@@ -4,7 +4,7 @@ declare global {
 		name: string
 		issuer: string
 		rewardType: string
-		annualFee: number
+		annualFee: number | string
 		signUpBonus: string
 		earningRate: string
 		bonusCategories: string
